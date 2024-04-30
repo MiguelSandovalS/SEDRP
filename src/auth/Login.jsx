@@ -47,7 +47,7 @@ function Login() {
                                 <input type="checkbox" id='recordad' className='w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600' />
                                 <label for='recordar' className='ml-2 font-medium text-base'>Recordar tu contraseña</label>
                             </div>
-                            <button className='font-medium text-base text-blue-500'>Olvidaste tu contraseña ?</button>
+                            <button className='font-medium text-base text-blue-500'>¿Olvidaste tu contraseña?</button>
                         </div>
 
                     </form>
@@ -57,7 +57,7 @@ function Login() {
                 </div>
             </div>
             <div className=' hidden relative lg:flex h-full bg-gray-200 w-1/2 flex-col items-center justify-center '>
-                <div className="mb-28 text-2xl font-semibold">Sistema de expedientes para las residencias profecionales</div>
+                <div className="mb-28 text-2xl font-semibold">Sistema de expedientes para las residencias profesionales</div>
                 <div className='w-60 h-60 bg-gradient-to-tr from-indigo-500 to-sky-500 rounded-full animate-bounce shadow-2xl shadow-blue-300 '>
                     <img src={ImagenLogoITC}  />
                 </div>
