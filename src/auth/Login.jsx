@@ -29,8 +29,8 @@ function Login() {
     return (
         <div className="flex w-full h-screen">
             <div className="w-full flex items-center justify-center lg:w-1/2">
-                <div className="bg-white px-10 py-20 rounded-3xl border-2 border-gray-100">
-                    <h1 className="text-5xl font-semibold">Bienvenido al Sistema del ITC</h1>
+                <div className="bg-white px-10 py-20 rounded-3xl shadow-lg shadow-gray-400">
+                    <h1 className="text-5xl font-semibold">Bienvenido al ITCampeche</h1>
                     <p className="font-mediom text-lg text-gay-500 mt-4">Ingresa la siguiente información</p>
                     <form onSubmit={Autenticar}>                        
                         <div className="mt-8">
@@ -40,7 +40,7 @@ function Login() {
                         <div className="mt-8">
                             <label className='txt-lg font-medium'>Contraseña</label>
                             <input type="password" placeholder='Ingresa tu contraseña' className='w-full border-gray-100 rounded-2xl p-4 mt-5 bg-transparent' id='password' />
-                            <button className='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded-md mt-5' >{validacion ? "Registrate" : "Inicia Sesion"}</button>
+                            <button className='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded-md mt-5 active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all' >{validacion ? "Registrate" : "Inicia Sesion"}</button>
                         </div>
                         <div className=' mt-8 flex justify-between items-center '>
                             <div className='flex items-center mb-4'>
@@ -56,9 +56,9 @@ function Login() {
                     </div>
                 </div>
             </div>
-            <div className=' hidden relative lg:flex h-full bg-gray-200 w-1/2 justify-center items-center'>
-                {/* <div className="border-red-400 border-2">poner el itc o el sistema</div> */}
-                <div className='w-60 h-60 bg-gradient-to-tr from-indigo-500 to-sky-500 rounded-full animate-bounce shadow-2xl shadow-blue-300'>
+            <div className=' hidden relative lg:flex h-full bg-gray-200 w-1/2 flex-col items-center justify-center '>
+                <div className="mb-28 text-2xl font-semibold">Sistema de expedientes para las residencias profecionales</div>
+                <div className='w-60 h-60 bg-gradient-to-tr from-indigo-500 to-sky-500 rounded-full animate-bounce shadow-2xl shadow-blue-300 '>
                     <img src={ImagenLogoITC}  />
                 </div>
             </div>
